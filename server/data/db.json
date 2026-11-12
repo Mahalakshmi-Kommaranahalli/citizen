@@ -1,0 +1,2101 @@
+{
+  "grievances": [
+    {
+      "id": "grv-c738b2c4",
+      "trackingToken": "GRV-2026-9824",
+      "title": "Dangerous live electrical wire sparking across footpath near nursery",
+      "description": "Exposed 440V distribution wire fell after storm. Sparking actively on wet ground. Huge electrocution risk.",
+      "category": "live_wire",
+      "categoryName": "Live Exposed Electrical Cable / Sparking",
+      "departmentId": "DEPT_ELEC",
+      "departmentName": "Electricity, Streetlights & Energy",
+      "wardId": "WARD_01",
+      "wardName": "Ward 1 - North Ridge & Civil Lines",
+      "address": "Sector 3 Nursery Lane, Civil Lines",
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.209
+      },
+      "citizen": {
+        "name": "Priya Sharma",
+        "phone": "+91 98111 22233",
+        "email": "priya.s@gmail.com"
+      },
+      "priority": "CRITICAL",
+      "urgencyScore": 100,
+      "routingReason": "Automated Classification: Routed to 'Electricity, Streetlights & Energy' (Dept Code: ELEC). Trigger keywords detected: [wire, sparking]. Calculated Urgency Score: 100/100. Priority assigned: CRITICAL. Safety alert triggers: [danger, dangerous, sparking]. Jurisdiction: Assigned to Ward 1 - North Ridge & Civil Lines Field Officer Manoj Tiwari (Lineman In-charge W-01). SLA Guarantee: 2 Hours resolution window (Target: 12 Nov, 03:10 pm).",
+      "status": "ASSIGNED",
+      "assignedOfficer": {
+        "id": "OFF_ELEC_01",
+        "name": "Manoj Tiwari",
+        "title": "Lineman In-charge W-01",
+        "phone": "+91 98101 22004",
+        "email": "manoj.elec@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 2,
+      "slaDeadline": "2026-11-12T09:40:42.032Z",
+      "createdAt": "2026-11-12T07:40:42.030Z",
+      "upvotes": 1,
+      "attachments": [
+        {
+          "id": "att-1794469242047",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&auto=format&fit=crop&q=80",
+          "caption": "Uploaded evidence of civic issue"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Complaint submitted via Web Portal by Priya Sharma.",
+          "timestamp": "2026-11-12T07:40:42.030Z",
+          "actor": "Priya Sharma"
+        },
+        {
+          "step": 2,
+          "title": "Intelligent Auto-Routing Executed",
+          "description": "Automated Classification: Routed to 'Electricity, Streetlights & Energy' (Dept Code: ELEC). Trigger keywords detected: [wire, sparking]. Calculated Urgency Score: 100/100. Priority assigned: CRITICAL. Safety alert triggers: [danger, dangerous, sparking]. Jurisdiction: Assigned to Ward 1 - North Ridge & Civil Lines Field Officer Manoj Tiwari (Lineman In-charge W-01). SLA Guarantee: 2 Hours resolution window (Target: 12 Nov, 03:10 pm).",
+          "timestamp": "2026-11-12T07:40:57.030Z",
+          "actor": "Automated Routing Engine"
+        }
+      ]
+    },
+    {
+      "id": "grv-test-1794468919870",
+      "trackingToken": "GRV-2026-4649",
+      "title": "Test Lifecycle Pothole",
+      "description": "Testing full state machine progression",
+      "departmentId": "DEPT_ROADS",
+      "wardId": "WARD_01",
+      "status": "IN_PROGRESS",
+      "priority": "HIGH",
+      "createdAt": "2026-11-12T07:35:19.870Z",
+      "slaDeadline": "2026-11-13T07:35:19.870Z",
+      "slaHours": 24,
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Work Started",
+          "actor": "Engineer",
+          "timestamp": "2026-11-12T07:35:19.871Z",
+          "metadata": null
+        }
+      ],
+      "updatedAt": "2026-11-12T07:35:19.874Z",
+      "resolvedAt": "2026-11-12T07:35:19.872Z",
+      "resolution": {
+        "summary": "Asphalt repaved cleanly",
+        "proofImage": "http://img.jpg"
+      },
+      "feedback": {
+        "rating": 5,
+        "comment": "Great rapid action!"
+      },
+      "escalationLevel": 1,
+      "reopenedReason": "Cavity caved in again after rain"
+    },
+    {
+      "id": "grv-e2ee9306",
+      "trackingToken": "GRV-2026-7510",
+      "title": "Dangerous live electrical wire sparking across footpath near nursery",
+      "description": "Exposed 440V distribution wire fell after storm. Sparking actively on wet ground. Huge electrocution risk.",
+      "category": "live_wire",
+      "categoryName": "Live Exposed Electrical Cable / Sparking",
+      "departmentId": "DEPT_ELEC",
+      "departmentName": "Electricity, Streetlights & Energy",
+      "wardId": "WARD_01",
+      "wardName": "Ward 1 - North Ridge & Civil Lines",
+      "address": "Sector 3 Nursery Lane, Civil Lines",
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.209
+      },
+      "citizen": {
+        "name": "Priya Sharma",
+        "phone": "+91 98111 22233",
+        "email": "priya.s@gmail.com"
+      },
+      "priority": "CRITICAL",
+      "urgencyScore": 100,
+      "routingReason": "Automated Classification: Routed to 'Electricity, Streetlights & Energy' (Dept Code: ELEC). Trigger keywords detected: [wire, sparking]. Calculated Urgency Score: 100/100. Priority assigned: CRITICAL. Safety alert triggers: [danger, dangerous, sparking]. Jurisdiction: Assigned to Ward 1 - North Ridge & Civil Lines Field Officer Manoj Tiwari (Lineman In-charge W-01). SLA Guarantee: 2 Hours resolution window (Target: 12 Nov, 02:58 pm).",
+      "status": "ASSIGNED",
+      "assignedOfficer": {
+        "id": "OFF_ELEC_01",
+        "name": "Manoj Tiwari",
+        "title": "Lineman In-charge W-01",
+        "phone": "+91 98101 22004",
+        "email": "manoj.elec@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 2,
+      "slaDeadline": "2026-11-12T09:28:32.684Z",
+      "createdAt": "2026-11-12T07:28:32.682Z",
+      "upvotes": 1,
+      "attachments": [
+        {
+          "id": "att-1794468512702",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&auto=format&fit=crop&q=80",
+          "caption": "Uploaded evidence of civic issue"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Complaint submitted via Web Portal by Priya Sharma.",
+          "timestamp": "2026-11-12T07:28:32.682Z",
+          "actor": "Priya Sharma"
+        },
+        {
+          "step": 2,
+          "title": "Intelligent Auto-Routing Executed",
+          "description": "Automated Classification: Routed to 'Electricity, Streetlights & Energy' (Dept Code: ELEC). Trigger keywords detected: [wire, sparking]. Calculated Urgency Score: 100/100. Priority assigned: CRITICAL. Safety alert triggers: [danger, dangerous, sparking]. Jurisdiction: Assigned to Ward 1 - North Ridge & Civil Lines Field Officer Manoj Tiwari (Lineman In-charge W-01). SLA Guarantee: 2 Hours resolution window (Target: 12 Nov, 02:58 pm).",
+          "timestamp": "2026-11-12T07:28:47.682Z",
+          "actor": "Automated Routing Engine"
+        }
+      ]
+    },
+    {
+      "id": "grv-4de53215",
+      "trackingToken": "GRV-2026-2613",
+      "title": "Dangerous live electrical wire sparking across footpath near nursery",
+      "description": "Exposed 440V distribution wire fell after storm. Sparking actively on wet ground. Huge electrocution risk.",
+      "category": "live_wire",
+      "categoryName": "Live Exposed Electrical Cable / Sparking",
+      "departmentId": "DEPT_ELEC",
+      "departmentName": "Electricity, Streetlights & Energy",
+      "wardId": "WARD_01",
+      "wardName": "Ward 1 - North Ridge & Civil Lines",
+      "address": "Sector 3 Nursery Lane, Civil Lines",
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.209
+      },
+      "citizen": {
+        "name": "Priya Sharma",
+        "phone": "+91 98111 22233",
+        "email": "priya.s@gmail.com"
+      },
+      "priority": "CRITICAL",
+      "urgencyScore": 100,
+      "routingReason": "Automated Classification: Routed to 'Electricity, Streetlights & Energy' (Dept Code: ELEC). Trigger keywords detected: [wire, sparking]. Calculated Urgency Score: 100/100. Priority assigned: CRITICAL. Safety alert triggers: [danger, dangerous, sparking]. Jurisdiction: Assigned to Ward 1 - North Ridge & Civil Lines Field Officer Manoj Tiwari (Lineman In-charge W-01). SLA Guarantee: 2 Hours resolution window (Target: 12 Nov, 02:57 pm).",
+      "status": "ASSIGNED",
+      "assignedOfficer": {
+        "id": "OFF_ELEC_01",
+        "name": "Manoj Tiwari",
+        "title": "Lineman In-charge W-01",
+        "phone": "+91 98101 22004",
+        "email": "manoj.elec@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 2,
+      "slaDeadline": "2026-11-12T09:27:07.116Z",
+      "createdAt": "2026-11-12T07:27:07.114Z",
+      "upvotes": 1,
+      "attachments": [
+        {
+          "id": "att-1794468427131",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&auto=format&fit=crop&q=80",
+          "caption": "Uploaded evidence of civic issue"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Complaint submitted via Web Portal by Priya Sharma.",
+          "timestamp": "2026-11-12T07:27:07.114Z",
+          "actor": "Priya Sharma"
+        },
+        {
+          "step": 2,
+          "title": "Intelligent Auto-Routing Executed",
+          "description": "Automated Classification: Routed to 'Electricity, Streetlights & Energy' (Dept Code: ELEC). Trigger keywords detected: [wire, sparking]. Calculated Urgency Score: 100/100. Priority assigned: CRITICAL. Safety alert triggers: [danger, dangerous, sparking]. Jurisdiction: Assigned to Ward 1 - North Ridge & Civil Lines Field Officer Manoj Tiwari (Lineman In-charge W-01). SLA Guarantee: 2 Hours resolution window (Target: 12 Nov, 02:57 pm).",
+          "timestamp": "2026-11-12T07:27:22.114Z",
+          "actor": "Automated Routing Engine"
+        }
+      ]
+    },
+    {
+      "id": "grv-1001",
+      "trackingToken": "GRV-2026-8910",
+      "title": "Deep Hazardous Pothole near Main Market Crossing",
+      "description": "A very large pothole (over 1.5 feet deep) has formed right at the busy traffic intersection. Two two-wheelers skidded yesterday evening. Immediate resurfacing required before accidents happen.",
+      "category": "pothole",
+      "categoryName": "Dangerous Pothole / Road Depression",
+      "departmentId": "DEPT_ROADS",
+      "departmentName": "Roads, Footpaths & Civil Infrastructure",
+      "wardId": "WARD_01",
+      "wardName": "Ward 1 - North Ridge & Civil Lines",
+      "address": "Opposite Gurudwara Road, Near Main Market Crossing, Civil Lines",
+      "coordinates": {
+        "lat": 28.6932,
+        "lng": 77.2145
+      },
+      "citizen": {
+        "name": "Rohit Malhotra",
+        "phone": "+91 98765 43210",
+        "email": "rohit.m@gmail.com",
+        "isAnonymous": false
+      },
+      "priority": "HIGH",
+      "urgencyScore": 82,
+      "routingReason": "Auto-routed to Roads Dept based on detected tokens: 'pothole', 'resurfacing', 'traffic'. Priority set to HIGH due to public safety risk near busy crossing.",
+      "status": "RESOLVED",
+      "assignedOfficer": {
+        "id": "OFF_ROADS_01",
+        "name": "Pooja Hegde",
+        "title": "Asst. Engineer (Roads) W-01",
+        "phone": "+91 98101 22002",
+        "email": "pooja.roads@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 24,
+      "createdAt": "2026-11-10T23:22:11.719Z",
+      "slaDeadline": "2026-11-11T23:22:11.720Z",
+      "resolvedAt": "2026-11-11T21:22:11.720Z",
+      "upvotes": 24,
+      "attachments": [
+        {
+          "id": "att-1",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=600&auto=format&fit=crop&q=80",
+          "caption": "Deep crater in road surface"
+        }
+      ],
+      "resolution": {
+        "resolvedBy": "Pooja Hegde (Asst. Engineer)",
+        "summary": "Cold mix asphalt resurfacing completed, compacted with vibratory roller. Traffic flow restored smoothly.",
+        "proofImage": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?w=600&auto=format&fit=crop&q=80",
+        "materialsUsed": "Bituminous cold mix (450 kg), tack coat, stone grit",
+        "resolvedAt": "2026-11-11T21:22:11.720Z"
+      },
+      "feedback": {
+        "rating": 5,
+        "comment": "Super fast action by Pooja Hegde and the civil road crew! Repaired within 22 hours.",
+        "submittedAt": "2026-11-11T22:22:11.720Z"
+      },
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Complaint registered by citizen Rohit Malhotra via Web Portal.",
+          "timestamp": "2026-11-10T23:22:11.720Z",
+          "actor": "Citizen"
+        },
+        {
+          "step": 2,
+          "title": "Intelligent Auto-Routing",
+          "description": "AI & Rule Engine classified to DEPT_ROADS, assigned Ward 1 Field Engineer Pooja Hegde. SLA deadline set to 24 Hours.",
+          "timestamp": "2026-11-10T23:22:56.720Z",
+          "actor": "Auto-Routing Engine"
+        },
+        {
+          "step": 3,
+          "title": "Inspection & Work Order Issued",
+          "description": "Officer Pooja Hegde visited site, measured 2.2m x 1.4m cavity, asphalt patch team dispatched.",
+          "timestamp": "2026-11-11T11:22:11.720Z",
+          "actor": "Pooja Hegde"
+        },
+        {
+          "step": 4,
+          "title": "Redressal Completed & Proof Uploaded",
+          "description": "Cold mix asphalt compacted, inspection passed, resolution proof documented.",
+          "timestamp": "2026-11-11T21:22:11.720Z",
+          "actor": "Pooja Hegde"
+        },
+        {
+          "step": 5,
+          "title": "Citizen Feedback Received",
+          "description": "Citizen gave a 5-star rating with positive remarks.",
+          "timestamp": "2026-11-11T22:22:11.720Z",
+          "actor": "Rohit Malhotra"
+        }
+      ]
+    },
+    {
+      "id": "grv-1002",
+      "trackingToken": "GRV-2026-9204",
+      "title": "Open Sewer Manhole Without Cover - Extreme Danger",
+      "description": "Deep open sewer manhole on walking path right outside Modern Public School gate. Children and pedestrians are at risk of falling in, especially after dark as streetlights are dim here.",
+      "category": "missing_manhole",
+      "categoryName": "Missing or Open Sewer Manhole Lid",
+      "departmentId": "DEPT_WATER",
+      "departmentName": "Water Supply & Sewerage Board",
+      "wardId": "WARD_02",
+      "wardName": "Ward 2 - Riverside Heritage & Old City",
+      "address": "Gate No. 2, Modern Public High School, Daryaganj Heritage Lane",
+      "coordinates": {
+        "lat": 28.6521,
+        "lng": 77.2312
+      },
+      "citizen": {
+        "name": "Meenakshi Sundaram",
+        "phone": "+91 98450 12345",
+        "email": "meenakshi.s@gmail.com",
+        "isAnonymous": false
+      },
+      "priority": "CRITICAL",
+      "urgencyScore": 98,
+      "routingReason": "Triggered emergency rule: 'open manhole' near 'school'. Urgency score 98/100 -> CRITICAL priority with 4-hour emergency SLA.",
+      "status": "ESCALATED_L3",
+      "assignedOfficer": {
+        "id": "OFF_WATER_02",
+        "name": "Gopal Krishna",
+        "title": "Junior Engineer (Water) W-02",
+        "phone": "+91 98101 22013",
+        "email": "gopal.water@nagarseva.gov.in"
+      },
+      "escalationLevel": 3,
+      "slaHours": 4,
+      "createdAt": "2026-11-11T17:22:11.720Z",
+      "slaDeadline": "2026-11-11T21:22:11.720Z",
+      "upvotes": 48,
+      "attachments": [
+        {
+          "id": "att-2",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&auto=format&fit=crop&q=80",
+          "caption": "Exposed sewer opening on school footpath"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Emergency Grievance Lodged",
+          "description": "Citizen reported open manhole directly outside school entrance.",
+          "timestamp": "2026-11-11T17:22:11.720Z",
+          "actor": "Citizen"
+        },
+        {
+          "step": 2,
+          "title": "Critical Auto-Routing & SMS Broadcast",
+          "description": "Emergency keyword detected. Assigned to Ward 2 Water & Sewerage JE Gopal Krishna. High-priority dispatch SMS transmitted.",
+          "timestamp": "2026-11-11T17:22:41.720Z",
+          "actor": "System Routing Engine"
+        },
+        {
+          "step": 3,
+          "title": "SLA Level 1 Escalation Triggered",
+          "description": "Resolution not logged within 4 hours. Automated escalation to Superintending Engineer Er. Anita Nambiar.",
+          "timestamp": "2026-11-11T21:22:11.720Z",
+          "actor": "SLA Monitoring Daemon"
+        },
+        {
+          "step": 4,
+          "title": "SLA Level 2 Escalation (Zonal Commissioner)",
+          "description": "Breach exceeded 6 hours for Critical ticket. Alert escalated to Zonal Commissioner Smt. Archana Meena (IAS). Emergency barricading ordered.",
+          "timestamp": "2026-11-12T03:22:11.720Z",
+          "actor": "SLA Monitoring Daemon"
+        },
+        {
+          "step": 5,
+          "title": "Automated SLA Escalation -> Level 3",
+          "description": "SLA breached (10h 0m overdue). Case escalated to Municipal Commissioner & District Magistrate (Chief Executive Authority). Immediate corrective action demanded.",
+          "actor": "SLA Monitoring Daemon",
+          "timestamp": "2026-11-12T07:22:11.731Z",
+          "metadata": {
+            "level": 3,
+            "breachInfo": "10h 0m overdue"
+          }
+        }
+      ],
+      "updatedAt": "2026-11-12T07:22:11.730Z"
+    },
+    {
+      "id": "grv-1003",
+      "trackingToken": "GRV-2026-6411",
+      "title": "Contaminated Muddy Drinking Water from Municipal Tap",
+      "description": "For the past 48 hours, yellow and black foul-smelling water is flowing from our household pipeline in Sector 4. Residents suspect mixing with an underground sewer line. Two children have developed stomach infections.",
+      "category": "contaminated_water",
+      "categoryName": "Contaminated / Turbid Tap Water Supply",
+      "departmentId": "DEPT_WATER",
+      "departmentName": "Water Supply & Sewerage Board",
+      "wardId": "WARD_01",
+      "wardName": "Ward 1 - North Ridge & Civil Lines",
+      "address": "Blocks C & D, Civil Lines Residential Enclave",
+      "coordinates": {
+        "lat": 28.691,
+        "lng": 77.218
+      },
+      "citizen": {
+        "name": "Kavita Swaminathan",
+        "phone": "+91 97112 33445",
+        "email": "kavita.swami@outlook.com",
+        "isAnonymous": false
+      },
+      "priority": "CRITICAL",
+      "urgencyScore": 94,
+      "routingReason": "Tokens detected: 'contaminated', 'foul-smelling', 'sewer line', 'children stomach infections'. Auto-escalated to Water Dept with Critical priority.",
+      "status": "IN_PROGRESS",
+      "assignedOfficer": {
+        "id": "OFF_WATER_01",
+        "name": "Suresh Pillai",
+        "title": "Junior Engineer (Water) W-01",
+        "phone": "+91 98101 22003",
+        "email": "suresh.water@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 16,
+      "createdAt": "2026-11-12T01:22:11.720Z",
+      "slaDeadline": "2026-11-12T17:22:11.720Z",
+      "upvotes": 31,
+      "attachments": [
+        {
+          "id": "att-3",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&auto=format&fit=crop&q=80",
+          "caption": "Discolored tap water collected in bottle"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Complaint registered regarding sewage mixing in potable drinking line.",
+          "timestamp": "2026-11-12T01:22:11.720Z",
+          "actor": "Citizen"
+        },
+        {
+          "step": 2,
+          "title": "Auto-Routed with Critical SLA",
+          "description": "16-hour SLA applied. Field team led by JE Suresh Pillai deployed with acoustic leak detector.",
+          "timestamp": "2026-11-12T01:22:51.720Z",
+          "actor": "Auto-Routing Engine"
+        },
+        {
+          "step": 3,
+          "title": "Field Inspection in Progress",
+          "description": "Excavation began at Valve 14 junction. Water tanker supply dispatched to affected colony as interim relief.",
+          "timestamp": "2026-11-12T05:22:11.720Z",
+          "actor": "Suresh Pillai"
+        }
+      ]
+    },
+    {
+      "id": "grv-1004",
+      "trackingToken": "GRV-2026-7832",
+      "title": "Massive Garbage Mound Overspilling on Main Highway Service Road",
+      "description": "Municipal waste compactor truck hasn't visited this corner for 4 days. Commercial restaurants have dumped plastic bags and leftover food. Stray cows and dogs scattering garbage on the road.",
+      "category": "garbage_dump",
+      "categoryName": "Garbage Pile / Illegal Dumping",
+      "departmentId": "DEPT_SAN",
+      "departmentName": "Sanitation & Solid Waste Management",
+      "wardId": "WARD_05",
+      "wardName": "Ward 5 - West Industrial Estate & Logistics Hub",
+      "address": "Corner of Phase-2 Logistics Avenue & Ring Service Road",
+      "coordinates": {
+        "lat": 28.654,
+        "lng": 77.118
+      },
+      "citizen": {
+        "name": "Amandeep Gill",
+        "phone": "+91 99100 87654",
+        "email": "gill.aman@gmail.com",
+        "isAnonymous": false
+      },
+      "priority": "HIGH",
+      "urgencyScore": 78,
+      "routingReason": "Detected 'garbage', 'waste compactor', 'dumped', 'stink'. Assigned to Sanitation Dept Ward 5 Inspector Jaspal Bhatti.",
+      "status": "IN_PROGRESS",
+      "assignedOfficer": {
+        "id": "OFF_SAN_05",
+        "name": "Jaspal Bhatti",
+        "title": "Sanitary Inspector W-05",
+        "phone": "+91 98101 22041",
+        "email": "jaspal.san@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 24,
+      "createdAt": "2026-11-11T10:22:11.720Z",
+      "slaDeadline": "2026-11-12T10:22:11.720Z",
+      "upvotes": 18,
+      "attachments": [
+        {
+          "id": "att-4",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=600&auto=format&fit=crop&q=80",
+          "caption": "Overspilling roadside garbage bin"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Citizen logged complaint with photo of garbage overspill.",
+          "timestamp": "2026-11-11T10:22:11.720Z",
+          "actor": "Citizen"
+        },
+        {
+          "step": 2,
+          "title": "Auto-Routed to Sanitation",
+          "description": "Assigned to Sanitary Inspector Jaspal Bhatti. SLA: 24 Hours.",
+          "timestamp": "2026-11-11T10:23:01.720Z",
+          "actor": "Auto-Routing Engine"
+        },
+        {
+          "step": 3,
+          "title": "SLA Approaching Warning",
+          "description": "Ticket has reached 85% of SLA threshold without resolution closure. Early warning ping sent to inspector.",
+          "timestamp": "2026-11-12T04:22:11.720Z",
+          "actor": "SLA Monitoring Daemon"
+        },
+        {
+          "step": 4,
+          "title": "Backhoe Loader Dispatched",
+          "description": "Inspector Bhatti reported JCB loader and 2 tipper trucks en route to clear site.",
+          "timestamp": "2026-11-12T06:22:11.720Z",
+          "actor": "Jaspal Bhatti"
+        }
+      ],
+      "warningNotified": true,
+      "updatedAt": "2026-11-12T07:22:11.734Z"
+    },
+    {
+      "id": "grv-1005",
+      "trackingToken": "GRV-2026-3199",
+      "title": "12 Streetlights Non-Functional in Cyber Tech Park Promenade",
+      "description": "Complete stretch of 500 meters along Tech Park Gate 4 is pitch black every evening. Multiple female employees walk this path to the metro station. Urgent repair needed.",
+      "category": "dark_stretch",
+      "categoryName": "Entire Street / Colony In Darkness",
+      "departmentId": "DEPT_ELEC",
+      "departmentName": "Electricity, Streetlights & Energy",
+      "wardId": "WARD_03",
+      "wardName": "Ward 3 - Cyber Tech Corridor & Highrise",
+      "address": "Pathway between Cyber City Metro & Tower 5 Promenade",
+      "coordinates": {
+        "lat": 28.6312,
+        "lng": 77.292
+      },
+      "citizen": {
+        "name": "Priyanka Sen",
+        "phone": "+91 98118 77665",
+        "email": "priyanka.sen@infotech.com",
+        "isAnonymous": false
+      },
+      "priority": "HIGH",
+      "urgencyScore": 84,
+      "routingReason": "Detected keywords 'streetlights', 'pitch black', 'female safety'. Priority elevated to HIGH.",
+      "status": "ESCALATED_L1",
+      "assignedOfficer": {
+        "id": "OFF_ELEC_03",
+        "name": "Satish Chand",
+        "title": "Lineman In-charge W-03",
+        "phone": "+91 98101 22024",
+        "email": "satish.elec@nagarseva.gov.in"
+      },
+      "escalationLevel": 1,
+      "slaHours": 12,
+      "createdAt": "2026-11-11T16:22:11.720Z",
+      "slaDeadline": "2026-11-12T04:22:11.720Z",
+      "upvotes": 62,
+      "attachments": [
+        {
+          "id": "att-5",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+          "caption": "Dark pathway without functional illumination"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Complaint filed highlighting woman safety concern on dark corridor.",
+          "timestamp": "2026-11-11T16:22:11.720Z",
+          "actor": "Citizen"
+        },
+        {
+          "step": 2,
+          "title": "Auto-Routed to Electrical Dept",
+          "description": "Assigned to Ward 3 Lineman Satish Chand with 12-hour high priority deadline.",
+          "timestamp": "2026-11-11T16:22:51.720Z",
+          "actor": "Auto-Routing Engine"
+        },
+        {
+          "step": 3,
+          "title": "SLA Breached - Level 1 Escalation",
+          "description": "Deadline breached 3 hours ago. Escalated to Executive Engineer Er. K. V. Narayanan for immediate crew mobilization.",
+          "timestamp": "2026-11-12T04:22:11.720Z",
+          "actor": "SLA Monitoring Daemon"
+        }
+      ]
+    },
+    {
+      "id": "grv-1006",
+      "trackingToken": "GRV-2026-4421",
+      "title": "Large Neem Tree Branch Snapped, Hanging on Power Cable",
+      "description": "Due to heavy thunderstorms yesterday, a huge tree branch broke and is suspended precariously on the 440V distribution lines. High risk of cable snapping and short circuit.",
+      "category": "dangerous_branch",
+      "categoryName": "Hazardous Overhanging Branch Over Wire/Roof",
+      "departmentId": "DEPT_PARKS",
+      "departmentName": "Parks, Urban Forestry & Tree Management",
+      "wardId": "WARD_04",
+      "wardName": "Ward 4 - Green Valley & South Enclave",
+      "address": "Opposite Sector 7 Community Park, Green Valley",
+      "coordinates": {
+        "lat": 28.5365,
+        "lng": 77.2415
+      },
+      "citizen": {
+        "name": "Col. Sanjeev Bakshi",
+        "phone": "+91 98200 44332",
+        "email": "col.bakshi@armyvet.in",
+        "isAnonymous": false
+      },
+      "priority": "HIGH",
+      "urgencyScore": 88,
+      "routingReason": "Keywords: 'tree branch snapped', 'power cable', 'short circuit'. Multi-department flag: Parks (primary) with safety notice to Electrical.",
+      "status": "RESOLVED",
+      "assignedOfficer": {
+        "id": "OFF_PARKS_04",
+        "name": "Meena Swaminathan",
+        "title": "Horticulture Officer W-04",
+        "phone": "+91 98101 22037",
+        "email": "meena.parks@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 24,
+      "createdAt": "2026-11-11T03:22:11.720Z",
+      "slaDeadline": "2026-11-12T03:22:11.720Z",
+      "resolvedAt": "2026-11-11T17:22:11.720Z",
+      "upvotes": 14,
+      "attachments": [
+        {
+          "id": "att-6",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=600&auto=format&fit=crop&q=80",
+          "caption": "Overhanging branch touching cable"
+        }
+      ],
+      "resolution": {
+        "resolvedBy": "Meena Swaminathan (Horticulture Officer)",
+        "summary": "Coordinated with electrical team for temporary 30-min power shutdown. Hydraulic crane and chainsaw team safely pruned snapped branches and cleared debris.",
+        "proofImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
+        "materialsUsed": "Hydraulic sky-lift truck, chainsaw crew, green waste compactor",
+        "resolvedAt": "2026-11-11T17:22:11.720Z"
+      },
+      "feedback": {
+        "rating": 5,
+        "comment": "Very prompt and professional work by the urban forestry team. The branch was cleared safely.",
+        "submittedAt": "2026-11-11T19:22:11.720Z"
+      },
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Citizen reported hanging tree branch on electric wires.",
+          "timestamp": "2026-11-11T03:22:11.720Z",
+          "actor": "Citizen"
+        },
+        {
+          "step": 2,
+          "title": "Auto-Routed with Multi-Agency Tag",
+          "description": "Assigned to Ward 4 Horticulture Officer Meena Swaminathan. Cross-alert sent to Electrical Lineman.",
+          "timestamp": "2026-11-11T03:22:51.720Z",
+          "actor": "Auto-Routing Engine"
+        },
+        {
+          "step": 3,
+          "title": "Hydraulic Crane Deployed",
+          "description": "Field team with hydraulic lift pruned snapped bough safely.",
+          "timestamp": "2026-11-11T15:22:11.720Z",
+          "actor": "Meena Swaminathan"
+        },
+        {
+          "step": 4,
+          "title": "Grievance Resolved",
+          "description": "Site cleared, before & after verification photo uploaded.",
+          "timestamp": "2026-11-11T17:22:11.720Z",
+          "actor": "Meena Swaminathan"
+        }
+      ]
+    },
+    {
+      "id": "grv-1007",
+      "trackingToken": "GRV-2026-5590",
+      "title": "Severe Dengue Mosquito Breeding in Stagnant Water Plot",
+      "description": "An abandoned basement excavation plot next to Sector 5 primary health clinic has accumulated 3 feet of rainwater. It has turned into a massive mosquito breeding ground. Several dengue cases reported in the colony this week.",
+      "category": "mosquito_breeding",
+      "categoryName": "Dengue/Malaria Mosquito Fogging Request",
+      "departmentId": "DEPT_HEALTH",
+      "departmentName": "Public Health & Vector Disease Control",
+      "wardId": "WARD_04",
+      "wardName": "Ward 4 - Green Valley & South Enclave",
+      "address": "Plot 42B, Behind Sector 5 Health Clinic, Green Valley",
+      "coordinates": {
+        "lat": 28.532,
+        "lng": 77.245
+      },
+      "citizen": {
+        "name": "Dr. Arvind Kasbekar",
+        "phone": "+91 98199 66554",
+        "email": "dr.kasbekar@clinic.org",
+        "isAnonymous": false
+      },
+      "priority": "HIGH",
+      "urgencyScore": 91,
+      "routingReason": "Detected 'dengue', 'mosquito breeding', 'stagnant water', 'fever'. High health threat score.",
+      "status": "IN_PROGRESS",
+      "assignedOfficer": {
+        "id": "OFF_HEALTH_04",
+        "name": "Dr. K. Srinivas",
+        "title": "Zonal Epidemiologist W-04",
+        "phone": "+91 98101 22035",
+        "email": "srinivas.health@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 24,
+      "createdAt": "2026-11-11T23:22:11.720Z",
+      "slaDeadline": "2026-11-12T23:22:11.720Z",
+      "upvotes": 41,
+      "attachments": [
+        {
+          "id": "att-7",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?w=600&auto=format&fit=crop&q=80",
+          "caption": "Stagnant water pool with visible larvae breeding"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Doctor reported mosquito larvae pool near clinic.",
+          "timestamp": "2026-11-11T23:22:11.720Z",
+          "actor": "Citizen"
+        },
+        {
+          "step": 2,
+          "title": "Auto-Routed to Public Health",
+          "description": "Assigned to Dr. K. Srinivas with 24-hr vector control target.",
+          "timestamp": "2026-11-11T23:22:46.720Z",
+          "actor": "Auto-Routing Engine"
+        },
+        {
+          "step": 3,
+          "title": "Larvicide Spraying Initiated",
+          "description": "Abate chemical larvicide sprayed across pool. Municipal notice issued to vacant plot owner.",
+          "timestamp": "2026-11-12T04:22:11.720Z",
+          "actor": "Dr. K. Srinivas"
+        }
+      ]
+    },
+    {
+      "id": "grv-1008",
+      "trackingToken": "GRV-2026-1188",
+      "title": "Illegal Hawking and Temporary Shacks Blocking Fire Exit Lane",
+      "description": "Vegetable vendors and unlicensed food carts have completely covered the 20-foot emergency access lane leading to the residential apartments. Ambulances cannot enter in an emergency.",
+      "category": "encroachment",
+      "categoryName": "Illegal Footpath Encroachment / Hawkers",
+      "departmentId": "DEPT_REV",
+      "departmentName": "Town Planning, Encroachments & Civic Order",
+      "wardId": "WARD_02",
+      "wardName": "Ward 2 - Riverside Heritage & Old City",
+      "address": "Lane 4, Cloth Market Outer Ring, Heritage Ward",
+      "coordinates": {
+        "lat": 28.6535,
+        "lng": 77.228
+      },
+      "citizen": {
+        "name": "Sunil Bajaj",
+        "phone": "+91 98110 55443",
+        "email": "sunil.bajaj@gmail.com",
+        "isAnonymous": false
+      },
+      "priority": "MEDIUM",
+      "urgencyScore": 68,
+      "routingReason": "Detected 'illegal hawking', 'encroachment', 'emergency lane'. Routed to Town Planning & Enforcement.",
+      "status": "SUBMITTED",
+      "assignedOfficer": {
+        "id": "OFF_REV_02",
+        "name": "Alok Sengupta",
+        "title": "Enforcement Inspector W-02",
+        "phone": "+91 98101 22018",
+        "email": "alok.rev@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 72,
+      "createdAt": "2026-11-12T02:22:11.720Z",
+      "slaDeadline": "2026-11-15T02:22:11.720Z",
+      "upvotes": 9,
+      "attachments": [
+        {
+          "id": "att-8",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&auto=format&fit=crop&q=80",
+          "caption": "Encroached lane with illegal stalls"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Citizen reported commercial obstruction of emergency lane.",
+          "timestamp": "2026-11-12T02:22:11.720Z",
+          "actor": "Citizen"
+        },
+        {
+          "step": 2,
+          "title": "Auto-Routed to Enforcement",
+          "description": "Assigned to Enforcement Inspector Alok Sengupta.",
+          "timestamp": "2026-11-12T02:22:53.720Z",
+          "actor": "Auto-Routing Engine"
+        }
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1794469242048-769",
+      "timestamp": "2026-11-12T07:40:42.048Z",
+      "grievanceId": "grv-c738b2c4",
+      "trackingToken": "GRV-2026-9824",
+      "action": "GRIEVANCE_REGISTERED",
+      "actor": "Priya Sharma",
+      "details": "New CRITICAL ticket routed to Electricity, Streetlights & Energy (Manoj Tiwari). SLA: 2h."
+    },
+    {
+      "id": "log-1794468512703-549",
+      "timestamp": "2026-11-12T07:28:32.703Z",
+      "grievanceId": "grv-e2ee9306",
+      "trackingToken": "GRV-2026-7510",
+      "action": "GRIEVANCE_REGISTERED",
+      "actor": "Priya Sharma",
+      "details": "New CRITICAL ticket routed to Electricity, Streetlights & Energy (Manoj Tiwari). SLA: 2h."
+    },
+    {
+      "id": "log-1794468427132-306",
+      "timestamp": "2026-11-12T07:27:07.132Z",
+      "grievanceId": "grv-4de53215",
+      "trackingToken": "GRV-2026-2613",
+      "action": "GRIEVANCE_REGISTERED",
+      "actor": "Priya Sharma",
+      "details": "New CRITICAL ticket routed to Electricity, Streetlights & Energy (Manoj Tiwari). SLA: 2h."
+    },
+    {
+      "id": "log-1794468131732-87",
+      "timestamp": "2026-11-12T07:22:11.732Z",
+      "grievanceId": "grv-1002",
+      "trackingToken": "GRV-2026-9204",
+      "action": "SLA_AUTO_ESCALATION_L3",
+      "actor": "SLA Monitoring Daemon",
+      "details": "Ticket GRV-2026-9204 reached Level 3 escalation. Assignee: Municipal Commissioner & District Magistrate."
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-11-10T23:22:11.723Z",
+      "grievanceId": "grv-1001",
+      "trackingToken": "GRV-2026-8910",
+      "action": "GRIEVANCE_LODGED",
+      "actor": "Citizen (Rohit Malhotra)",
+      "details": "Grievance registered for Dangerous Pothole in Ward 1."
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-11-10T23:22:56.723Z",
+      "grievanceId": "grv-1001",
+      "trackingToken": "GRV-2026-8910",
+      "action": "AUTO_ROUTED",
+      "actor": "System Routing Engine",
+      "details": "Assigned to DEPT_ROADS, Officer Pooja Hegde. SLA: 24h."
+    },
+    {
+      "id": "log-3",
+      "timestamp": "2026-11-11T21:22:11.723Z",
+      "grievanceId": "grv-1002",
+      "trackingToken": "GRV-2026-9204",
+      "action": "SLA_BREACH_ESCALATION",
+      "actor": "SLA Monitoring Daemon",
+      "details": "Critical ticket unresolved past 4 hours. Escalated to Level 1 (Anita Nambiar)."
+    },
+    {
+      "id": "log-4",
+      "timestamp": "2026-11-12T03:22:11.723Z",
+      "grievanceId": "grv-1002",
+      "trackingToken": "GRV-2026-9204",
+      "action": "SLA_BREACH_ESCALATION",
+      "actor": "SLA Monitoring Daemon",
+      "details": "Breach unresolved past 10 hours. Escalated to Level 2 (Zonal Commissioner Smt. Archana Meena)."
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1794469242050-551",
+      "timestamp": "2026-11-12T07:40:42.050Z",
+      "isRead": false,
+      "recipientType": "OFFICER",
+      "recipientId": "OFF_ELEC_01",
+      "grievanceId": "grv-c738b2c4",
+      "trackingToken": "GRV-2026-9824",
+      "title": "New Work Assignment: GRV-2026-9824 [CRITICAL]",
+      "message": "A new CRITICAL priority grievance has been routed to you in Ward 1 - North Ridge & Civil Lines: \"Dangerous live electrical wire sparking across footpath near nursery\". SLA deadline: 12/11/2026, 3:10:42 pm.",
+      "type": "ASSIGNMENT",
+      "dispatches": {
+        "sms": {
+          "phone": "+91 98101 22004",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:40:42.050Z"
+        },
+        "email": {
+          "email": "manoj.elec@nagarseva.gov.in",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:40:42.050Z"
+        }
+      }
+    },
+    {
+      "id": "notif-1794469242049-770",
+      "timestamp": "2026-11-12T07:40:42.049Z",
+      "isRead": false,
+      "recipientType": "CITIZEN",
+      "recipientId": "priya.s@gmail.com",
+      "grievanceId": "grv-c738b2c4",
+      "trackingToken": "GRV-2026-9824",
+      "title": "Grievance Registered: GRV-2026-9824",
+      "message": "Your grievance regarding \"Dangerous live electrical wire sparking across footpath near nursery\" has been registered. Track status online anytime with token GRV-2026-9824. Target resolution SLA: 2 hours.",
+      "type": "TICKET_REGISTERED",
+      "dispatches": {
+        "sms": {
+          "phone": "+91 98111 22233",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:40:42.049Z"
+        },
+        "email": {
+          "email": "priya.s@gmail.com",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:40:42.049Z"
+        }
+      }
+    },
+    {
+      "id": "notif-1794468919875-252",
+      "timestamp": "2026-11-12T07:35:19.875Z",
+      "isRead": false,
+      "recipientType": "CITIZEN",
+      "title": "Test Notification",
+      "message": "Test dispatch message",
+      "type": "INFO",
+      "dispatches": {
+        "sms": {
+          "phone": "+91 98765 00000",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:35:19.875Z"
+        },
+        "email": null
+      }
+    },
+    {
+      "id": "notif-1794468512705-274",
+      "timestamp": "2026-11-12T07:28:32.705Z",
+      "isRead": false,
+      "recipientType": "OFFICER",
+      "recipientId": "OFF_ELEC_01",
+      "grievanceId": "grv-e2ee9306",
+      "trackingToken": "GRV-2026-7510",
+      "title": "New Work Assignment: GRV-2026-7510 [CRITICAL]",
+      "message": "A new CRITICAL priority grievance has been routed to you in Ward 1 - North Ridge & Civil Lines: \"Dangerous live electrical wire sparking across footpath near nursery\". SLA deadline: 12/11/2026, 2:58:32 pm.",
+      "type": "ASSIGNMENT",
+      "dispatches": {
+        "sms": {
+          "phone": "+91 98101 22004",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:28:32.705Z"
+        },
+        "email": {
+          "email": "manoj.elec@nagarseva.gov.in",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:28:32.705Z"
+        }
+      }
+    },
+    {
+      "id": "notif-1794468512704-749",
+      "timestamp": "2026-11-12T07:28:32.704Z",
+      "isRead": false,
+      "recipientType": "CITIZEN",
+      "recipientId": "priya.s@gmail.com",
+      "grievanceId": "grv-e2ee9306",
+      "trackingToken": "GRV-2026-7510",
+      "title": "Grievance Registered: GRV-2026-7510",
+      "message": "Your grievance regarding \"Dangerous live electrical wire sparking across footpath near nursery\" has been registered. Track status online anytime with token GRV-2026-7510. Target resolution SLA: 2 hours.",
+      "type": "TICKET_REGISTERED",
+      "dispatches": {
+        "sms": {
+          "phone": "+91 98111 22233",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:28:32.704Z"
+        },
+        "email": {
+          "email": "priya.s@gmail.com",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:28:32.704Z"
+        }
+      }
+    },
+    {
+      "id": "notif-1794468427134-990",
+      "timestamp": "2026-11-12T07:27:07.134Z",
+      "isRead": false,
+      "recipientType": "OFFICER",
+      "recipientId": "OFF_ELEC_01",
+      "grievanceId": "grv-4de53215",
+      "trackingToken": "GRV-2026-2613",
+      "title": "New Work Assignment: GRV-2026-2613 [CRITICAL]",
+      "message": "A new CRITICAL priority grievance has been routed to you in Ward 1 - North Ridge & Civil Lines: \"Dangerous live electrical wire sparking across footpath near nursery\". SLA deadline: 12/11/2026, 2:57:07 pm.",
+      "type": "ASSIGNMENT",
+      "dispatches": {
+        "sms": {
+          "phone": "+91 98101 22004",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:27:07.134Z"
+        },
+        "email": {
+          "email": "manoj.elec@nagarseva.gov.in",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:27:07.134Z"
+        }
+      }
+    },
+    {
+      "id": "notif-1794468427133-971",
+      "timestamp": "2026-11-12T07:27:07.133Z",
+      "isRead": false,
+      "recipientType": "CITIZEN",
+      "recipientId": "priya.s@gmail.com",
+      "grievanceId": "grv-4de53215",
+      "trackingToken": "GRV-2026-2613",
+      "title": "Grievance Registered: GRV-2026-2613",
+      "message": "Your grievance regarding \"Dangerous live electrical wire sparking across footpath near nursery\" has been registered. Track status online anytime with token GRV-2026-2613. Target resolution SLA: 2 hours.",
+      "type": "TICKET_REGISTERED",
+      "dispatches": {
+        "sms": {
+          "phone": "+91 98111 22233",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:27:07.133Z"
+        },
+        "email": {
+          "email": "priya.s@gmail.com",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T07:27:07.133Z"
+        }
+      }
+    },
+    {
+      "id": "notif-1794468131735-28",
+      "timestamp": "2026-11-12T07:22:11.735Z",
+      "isRead": false,
+      "recipientType": "OFFICER",
+      "recipientId": "OFF_SAN_05",
+      "grievanceId": "grv-1004",
+      "trackingToken": "GRV-2026-7832",
+      "title": "SLA Warning (75% Elapsed): Massive Garbage Mound Overspilling on Main Highway Service Road",
+      "message": "Grievance GRV-2026-7832 has only 2h 59m remaining before SLA breach. Please complete resolution immediately.",
+      "type": "BREACH_WARNING"
+    },
+    {
+      "id": "notif-1794468131733-530",
+      "timestamp": "2026-11-12T07:22:11.733Z",
+      "isRead": false,
+      "recipientType": "SUPERVISOR",
+      "recipientId": "DEPT_WATER",
+      "grievanceId": "grv-1002",
+      "trackingToken": "GRV-2026-9204",
+      "title": "CRITICAL ESCALATION [L3]: Open Sewer Manhole Without Cover - Extreme Danger",
+      "message": "Ticket GRV-2026-9204 in Ward 2 - Riverside Heritage & Old City exceeded SLA by 10h 0m overdue. Escalated to Municipal Commissioner & District Magistrate.",
+      "type": "BREACH_CRITICAL"
+    },
+    {
+      "id": "notif-1",
+      "recipientType": "OFFICER",
+      "recipientId": "OFF_WATER_02",
+      "grievanceId": "grv-1002",
+      "trackingToken": "GRV-2026-9204",
+      "title": "CRITICAL ALERT: SLA Level 2 Breach",
+      "message": "Open Sewer Manhole Outside Modern Public School breached 4h SLA. Escalated to Zonal Commissioner.",
+      "type": "BREACH_CRITICAL",
+      "isRead": false,
+      "timestamp": "2026-11-12T03:22:11.723Z"
+    },
+    {
+      "id": "notif-2",
+      "recipientType": "CITIZEN",
+      "recipientId": "rohit.m@gmail.com",
+      "grievanceId": "grv-1001",
+      "trackingToken": "GRV-2026-8910",
+      "title": "Grievance Resolved: Deep Pothole",
+      "message": "Your grievance GRV-2026-8910 has been resolved by Asst. Engineer Pooja Hegde. Please rate your experience.",
+      "type": "RESOLUTION",
+      "isRead": true,
+      "timestamp": "2026-11-11T21:22:11.723Z"
+    },
+    {
+      "id": "notif-3",
+      "recipientType": "SUPERVISOR",
+      "recipientId": "DEPT_ELEC",
+      "grievanceId": "grv-1005",
+      "trackingToken": "GRV-2026-3199",
+      "title": "SLA Level 1 Escalation: Cyber Park Dark Stretch",
+      "message": "Streetlight outage past 12-hour resolution SLA. Automated notice dispatched.",
+      "type": "BREACH_WARNING",
+      "isRead": false,
+      "timestamp": "2026-11-12T04:22:11.723Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "DEPT_SAN",
+      "name": "Sanitation & Solid Waste Management",
+      "shortCode": "SAN",
+      "icon": "Trash2",
+      "color": "emerald",
+      "headOfficer": {
+        "name": "Dr. Sunita Deshmukh",
+        "title": "Chief Sanitation Executive Officer",
+        "email": "sanitation.head@nagarseva.gov.in",
+        "phone": "+91 98201 11201"
+      },
+      "categories": [
+        {
+          "id": "garbage_dump",
+          "name": "Garbage Pile / Illegal Dumping",
+          "baseSlaHours": 24,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "door_collection",
+          "name": "Missed Door-to-Door Waste Collection",
+          "baseSlaHours": 18,
+          "defaultPriority": "MEDIUM"
+        },
+        {
+          "id": "dead_animal",
+          "name": "Animal Carcass Removal (Urgent)",
+          "baseSlaHours": 6,
+          "defaultPriority": "CRITICAL"
+        },
+        {
+          "id": "public_bin",
+          "name": "Overflowing Public Dustbins",
+          "baseSlaHours": 12,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "street_sweeping",
+          "name": "Unattended Street Sweeping",
+          "baseSlaHours": 36,
+          "defaultPriority": "LOW"
+        }
+      ],
+      "keywords": [
+        "garbage",
+        "trash",
+        "waste",
+        "dump",
+        "dustbin",
+        "litter",
+        "rubbish",
+        "debris",
+        "sweeping",
+        "dead animal",
+        "carcass",
+        "stink",
+        "foul smell",
+        "compost",
+        "filth",
+        "dumping yard"
+      ]
+    },
+    {
+      "id": "DEPT_ROADS",
+      "name": "Roads, Footpaths & Civil Infrastructure",
+      "shortCode": "ROADS",
+      "icon": "Hammer",
+      "color": "amber",
+      "headOfficer": {
+        "name": "Er. Rameshwar Rao",
+        "title": "Superintending Engineer (Civil & Roads)",
+        "email": "roads.head@nagarseva.gov.in",
+        "phone": "+91 98201 11202"
+      },
+      "categories": [
+        {
+          "id": "pothole",
+          "name": "Dangerous Pothole / Road Depression",
+          "baseSlaHours": 48,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "road_caving",
+          "name": "Road Caving / Sinkhole (Hazardous)",
+          "baseSlaHours": 12,
+          "defaultPriority": "CRITICAL"
+        },
+        {
+          "id": "footpath_damaged",
+          "name": "Broken Footpath / Missing Paver Block",
+          "baseSlaHours": 72,
+          "defaultPriority": "MEDIUM"
+        },
+        {
+          "id": "road_divider",
+          "name": "Damaged Road Divider / Guard Rail",
+          "baseSlaHours": 48,
+          "defaultPriority": "MEDIUM"
+        },
+        {
+          "id": "speed_breaker",
+          "name": "Unpainted or Broken Speed Breaker",
+          "baseSlaHours": 72,
+          "defaultPriority": "LOW"
+        }
+      ],
+      "keywords": [
+        "pothole",
+        "road",
+        "pavement",
+        "footpath",
+        "asphalt",
+        "tar",
+        "sinkhole",
+        "caving",
+        "crater",
+        "divider",
+        "guard rail",
+        "speed breaker",
+        "paver blocks",
+        "manhole cover",
+        "trench",
+        "excavation",
+        "broken road"
+      ]
+    },
+    {
+      "id": "DEPT_WATER",
+      "name": "Water Supply & Sewerage Board",
+      "shortCode": "WATER",
+      "icon": "Droplets",
+      "color": "blue",
+      "headOfficer": {
+        "name": "Er. Anita Nambiar",
+        "title": "Chief Engineer (Water & Sewerage)",
+        "email": "water.head@nagarseva.gov.in",
+        "phone": "+91 98201 11203"
+      },
+      "categories": [
+        {
+          "id": "pipe_burst",
+          "name": "Main Water Pipeline Burst / Heavy Leak",
+          "baseSlaHours": 8,
+          "defaultPriority": "CRITICAL"
+        },
+        {
+          "id": "contaminated_water",
+          "name": "Contaminated / Turbid Tap Water Supply",
+          "baseSlaHours": 16,
+          "defaultPriority": "CRITICAL"
+        },
+        {
+          "id": "no_water",
+          "name": "Complete Disruption of Water Supply",
+          "baseSlaHours": 24,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "low_pressure",
+          "name": "Persistent Low Water Pressure",
+          "baseSlaHours": 72,
+          "defaultPriority": "MEDIUM"
+        },
+        {
+          "id": "sewage_overflow",
+          "name": "Sewer Chamber Overflowing / Choked Line",
+          "baseSlaHours": 18,
+          "defaultPriority": "CRITICAL"
+        },
+        {
+          "id": "missing_manhole",
+          "name": "Missing or Open Sewer Manhole Lid",
+          "baseSlaHours": 4,
+          "defaultPriority": "CRITICAL"
+        }
+      ],
+      "keywords": [
+        "water",
+        "pipe",
+        "pipeline",
+        "leak",
+        "burst",
+        "contamination",
+        "dirty water",
+        "drinking water",
+        "tap",
+        "sewage",
+        "sewer",
+        "drain",
+        "manhole",
+        "gutter",
+        "smelly water",
+        "no water",
+        "dry tap",
+        "overflow",
+        "drainage"
+      ]
+    },
+    {
+      "id": "DEPT_ELEC",
+      "name": "Electricity, Streetlights & Energy",
+      "shortCode": "ELEC",
+      "icon": "Zap",
+      "color": "yellow",
+      "headOfficer": {
+        "name": "Er. K. V. Narayanan",
+        "title": "Executive Engineer (Public Electricals)",
+        "email": "electrical.head@nagarseva.gov.in",
+        "phone": "+91 98201 11204"
+      },
+      "categories": [
+        {
+          "id": "live_wire",
+          "name": "Live Exposed Electrical Cable / Sparking",
+          "baseSlaHours": 3,
+          "defaultPriority": "CRITICAL"
+        },
+        {
+          "id": "pole_tilt",
+          "name": "Tilted / Collapsed Electric Pole",
+          "baseSlaHours": 8,
+          "defaultPriority": "CRITICAL"
+        },
+        {
+          "id": "streetlight_out",
+          "name": "Single Streetlight Not Glowing",
+          "baseSlaHours": 48,
+          "defaultPriority": "MEDIUM"
+        },
+        {
+          "id": "dark_stretch",
+          "name": "Entire Street / Colony In Darkness",
+          "baseSlaHours": 12,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "transformer_issue",
+          "name": "Transformer Sparking / Oil Leak",
+          "baseSlaHours": 6,
+          "defaultPriority": "CRITICAL"
+        }
+      ],
+      "keywords": [
+        "streetlight",
+        "light",
+        "dark",
+        "lamp",
+        "pole",
+        "wire",
+        "cable",
+        "sparking",
+        "current",
+        "shock",
+        "electricity",
+        "transformer",
+        "power cut",
+        "short circuit",
+        "hanging wire",
+        "blackout",
+        "live wire"
+      ]
+    },
+    {
+      "id": "DEPT_HEALTH",
+      "name": "Public Health & Vector Disease Control",
+      "shortCode": "HEALTH",
+      "icon": "ShieldAlert",
+      "color": "rose",
+      "headOfficer": {
+        "name": "Dr. Farhan Qureshi",
+        "title": "Chief Municipal Health Officer",
+        "email": "health.head@nagarseva.gov.in",
+        "phone": "+91 98201 11205"
+      },
+      "categories": [
+        {
+          "id": "mosquito_breeding",
+          "name": "Dengue/Malaria Mosquito Fogging Request",
+          "baseSlaHours": 24,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "stagnant_pool",
+          "name": "Large Stagnant Water Pool Breeding Pests",
+          "baseSlaHours": 36,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "stray_animals",
+          "name": "Aggressive Stray Dogs / Animal Menace",
+          "baseSlaHours": 48,
+          "defaultPriority": "MEDIUM"
+        },
+        {
+          "id": "food_hygiene",
+          "name": "Unhygienic Food Stall / Adulteration Alert",
+          "baseSlaHours": 48,
+          "defaultPriority": "MEDIUM"
+        }
+      ],
+      "keywords": [
+        "mosquito",
+        "dengue",
+        "malaria",
+        "fogging",
+        "spray",
+        "stagnant water",
+        "larvae",
+        "epidemic",
+        "stray dog",
+        "dog bite",
+        "rabies",
+        "hygiene",
+        "food stall",
+        "contamination",
+        "pest control"
+      ]
+    },
+    {
+      "id": "DEPT_DRAIN",
+      "name": "Stormwater Drainage & Flood Management",
+      "shortCode": "DRAIN",
+      "icon": "Waves",
+      "color": "cyan",
+      "headOfficer": {
+        "name": "Er. Brijesh Solanki",
+        "title": "Superintending Engineer (Stormwater)",
+        "email": "drainage.head@nagarseva.gov.in",
+        "phone": "+91 98201 11206"
+      },
+      "categories": [
+        {
+          "id": "monsoon_flood",
+          "name": "Severe Waterlogging / Residential Inundation",
+          "baseSlaHours": 6,
+          "defaultPriority": "CRITICAL"
+        },
+        {
+          "id": "culvert_block",
+          "name": "Choked Major Storm Drain / Nullah",
+          "baseSlaHours": 24,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "desilting",
+          "name": "Pre-Monsoon Desilting Incomplete",
+          "baseSlaHours": 72,
+          "defaultPriority": "MEDIUM"
+        }
+      ],
+      "keywords": [
+        "waterlogging",
+        "flood",
+        "flooding",
+        "nullah",
+        "stormwater",
+        "drain",
+        "inundation",
+        "culvert",
+        "desilting",
+        "monsoon",
+        "clogged drain",
+        "choked drain"
+      ]
+    },
+    {
+      "id": "DEPT_PARKS",
+      "name": "Parks, Urban Forestry & Tree Management",
+      "shortCode": "PARKS",
+      "icon": "Trees",
+      "color": "teal",
+      "headOfficer": {
+        "name": "Smt. Kalyani Sundaram",
+        "title": "Director of Urban Forestry & Parks",
+        "email": "parks.head@nagarseva.gov.in",
+        "phone": "+91 98201 11207"
+      },
+      "categories": [
+        {
+          "id": "tree_fall",
+          "name": "Fallen Tree Blocking Road / Traffic",
+          "baseSlaHours": 4,
+          "defaultPriority": "CRITICAL"
+        },
+        {
+          "id": "dangerous_branch",
+          "name": "Hazardous Overhanging Branch Over Wire/Roof",
+          "baseSlaHours": 24,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "park_amenity",
+          "name": "Damaged Public Park Equipment / Lights",
+          "baseSlaHours": 96,
+          "defaultPriority": "LOW"
+        }
+      ],
+      "keywords": [
+        "tree",
+        "branch",
+        "pruning",
+        "fallen tree",
+        "park",
+        "garden",
+        "lawn",
+        "foliage",
+        "overhanging",
+        "horticulture",
+        "playground equipment"
+      ]
+    },
+    {
+      "id": "DEPT_REV",
+      "name": "Town Planning, Encroachments & Civic Order",
+      "shortCode": "REV",
+      "icon": "Building2",
+      "color": "indigo",
+      "headOfficer": {
+        "name": "Shri Vikramaditya Verma",
+        "title": "Assistant Municipal Commissioner (Enforcement)",
+        "email": "planning.head@nagarseva.gov.in",
+        "phone": "+91 98201 11208"
+      },
+      "categories": [
+        {
+          "id": "encroachment",
+          "name": "Illegal Footpath Encroachment / Hawkers",
+          "baseSlaHours": 72,
+          "defaultPriority": "MEDIUM"
+        },
+        {
+          "id": "illegal_construction",
+          "name": "Unauthorized Construction Activity",
+          "baseSlaHours": 48,
+          "defaultPriority": "HIGH"
+        },
+        {
+          "id": "noise_nuisance",
+          "name": "Commercial Loudspeaker / Late Night Noise",
+          "baseSlaHours": 12,
+          "defaultPriority": "HIGH"
+        }
+      ],
+      "keywords": [
+        "encroachment",
+        "hawker",
+        "illegal construction",
+        "unauthorized",
+        "hoarding",
+        "loudspeaker",
+        "noise",
+        "footpath blocked",
+        "commercial nuisance"
+      ]
+    }
+  ],
+  "wards": [
+    {
+      "id": "WARD_01",
+      "code": "W01",
+      "name": "Ward 1 - North Ridge & Civil Lines",
+      "zone": "North Zone",
+      "population": 142000,
+      "center": {
+        "lat": 28.6925,
+        "lng": 77.215
+      },
+      "bounds": [
+        [
+          28.705,
+          77.2
+        ],
+        [
+          28.705,
+          77.23
+        ],
+        [
+          28.68,
+          77.23
+        ],
+        [
+          28.68,
+          77.2
+        ]
+      ],
+      "zonalCommissioner": "Shri Ashok Khurana (IAS)",
+      "councilor": "Smt. Manpreet Kaur",
+      "officers": {
+        "DEPT_SAN": {
+          "id": "OFF_SAN_01",
+          "name": "Rakesh Verma",
+          "title": "Sanitary Inspector W-01",
+          "phone": "+91 98101 22001",
+          "email": "rakesh.san@nagarseva.gov.in"
+        },
+        "DEPT_ROADS": {
+          "id": "OFF_ROADS_01",
+          "name": "Pooja Hegde",
+          "title": "Asst. Engineer (Roads) W-01",
+          "phone": "+91 98101 22002",
+          "email": "pooja.roads@nagarseva.gov.in"
+        },
+        "DEPT_WATER": {
+          "id": "OFF_WATER_01",
+          "name": "Suresh Pillai",
+          "title": "Junior Engineer (Water) W-01",
+          "phone": "+91 98101 22003",
+          "email": "suresh.water@nagarseva.gov.in"
+        },
+        "DEPT_ELEC": {
+          "id": "OFF_ELEC_01",
+          "name": "Manoj Tiwari",
+          "title": "Lineman In-charge W-01",
+          "phone": "+91 98101 22004",
+          "email": "manoj.elec@nagarseva.gov.in"
+        },
+        "DEPT_HEALTH": {
+          "id": "OFF_HEALTH_01",
+          "name": "Dr. Deepa Nair",
+          "title": "Zonal Epidemiologist W-01",
+          "phone": "+91 98101 22005",
+          "email": "deepa.health@nagarseva.gov.in"
+        },
+        "DEPT_DRAIN": {
+          "id": "OFF_DRAIN_01",
+          "name": "Gurpreet Singh",
+          "title": "Drainage Supervisor W-01",
+          "phone": "+91 98101 22006",
+          "email": "gurpreet.drain@nagarseva.gov.in"
+        },
+        "DEPT_PARKS": {
+          "id": "OFF_PARKS_01",
+          "name": "Arun Joshi",
+          "title": "Horticulture Officer W-01",
+          "phone": "+91 98101 22007",
+          "email": "arun.parks@nagarseva.gov.in"
+        },
+        "DEPT_REV": {
+          "id": "OFF_REV_01",
+          "name": "Mohan Lal",
+          "title": "Enforcement Inspector W-01",
+          "phone": "+91 98101 22008",
+          "email": "mohan.rev@nagarseva.gov.in"
+        }
+      }
+    },
+    {
+      "id": "WARD_02",
+      "code": "W02",
+      "name": "Ward 2 - Riverside Heritage & Old City",
+      "zone": "Central Zone",
+      "population": 215000,
+      "center": {
+        "lat": 28.65,
+        "lng": 77.23
+      },
+      "bounds": [
+        [
+          28.665,
+          77.215
+        ],
+        [
+          28.665,
+          77.245
+        ],
+        [
+          28.635,
+          77.245
+        ],
+        [
+          28.635,
+          77.215
+        ]
+      ],
+      "zonalCommissioner": "Smt. Archana Meena (IAS)",
+      "councilor": "Janab Tariq Mansoor",
+      "officers": {
+        "DEPT_SAN": {
+          "id": "OFF_SAN_02",
+          "name": "Mohd. Salim",
+          "title": "Sanitary Inspector W-02",
+          "phone": "+91 98101 22011",
+          "email": "salim.san@nagarseva.gov.in"
+        },
+        "DEPT_ROADS": {
+          "id": "OFF_ROADS_02",
+          "name": "Vikram Rathore",
+          "title": "Asst. Engineer (Roads) W-02",
+          "phone": "+91 98101 22012",
+          "email": "vikram.roads@nagarseva.gov.in"
+        },
+        "DEPT_WATER": {
+          "id": "OFF_WATER_02",
+          "name": "Gopal Krishna",
+          "title": "Junior Engineer (Water) W-02",
+          "phone": "+91 98101 22013",
+          "email": "gopal.water@nagarseva.gov.in"
+        },
+        "DEPT_ELEC": {
+          "id": "OFF_ELEC_02",
+          "name": "Dinesh Rawat",
+          "title": "Lineman In-charge W-02",
+          "phone": "+91 98101 22014",
+          "email": "dinesh.elec@nagarseva.gov.in"
+        },
+        "DEPT_HEALTH": {
+          "id": "OFF_HEALTH_02",
+          "name": "Dr. Fatima Sheikh",
+          "title": "Zonal Epidemiologist W-02",
+          "phone": "+91 98101 22015",
+          "email": "fatima.health@nagarseva.gov.in"
+        },
+        "DEPT_DRAIN": {
+          "id": "OFF_DRAIN_02",
+          "name": "Vijay Shinde",
+          "title": "Drainage Supervisor W-02",
+          "phone": "+91 98101 22016",
+          "email": "vijay.drain@nagarseva.gov.in"
+        },
+        "DEPT_PARKS": {
+          "id": "OFF_PARKS_02",
+          "name": "Naresh Yadav",
+          "title": "Horticulture Officer W-02",
+          "phone": "+91 98101 22017",
+          "email": "naresh.parks@nagarseva.gov.in"
+        },
+        "DEPT_REV": {
+          "id": "OFF_REV_02",
+          "name": "Alok Sengupta",
+          "title": "Enforcement Inspector W-02",
+          "phone": "+91 98101 22018",
+          "email": "alok.rev@nagarseva.gov.in"
+        }
+      }
+    },
+    {
+      "id": "WARD_03",
+      "code": "W03",
+      "name": "Ward 3 - Cyber Tech Corridor & Highrise",
+      "zone": "East Zone",
+      "population": 185000,
+      "center": {
+        "lat": 28.63,
+        "lng": 77.29
+      },
+      "bounds": [
+        [
+          28.645,
+          77.27
+        ],
+        [
+          28.645,
+          77.31
+        ],
+        [
+          28.615,
+          77.31
+        ],
+        [
+          28.615,
+          77.27
+        ]
+      ],
+      "zonalCommissioner": "Shri Rajeshwar Reddy (IAS)",
+      "councilor": "Shri Anant Singhania",
+      "officers": {
+        "DEPT_SAN": {
+          "id": "OFF_SAN_03",
+          "name": "Pravin Kulkarni",
+          "title": "Sanitary Inspector W-03",
+          "phone": "+91 98101 22021",
+          "email": "pravin.san@nagarseva.gov.in"
+        },
+        "DEPT_ROADS": {
+          "id": "OFF_ROADS_03",
+          "name": "Ananya Bannerjee",
+          "title": "Asst. Engineer (Roads) W-03",
+          "phone": "+91 98101 22022",
+          "email": "ananya.roads@nagarseva.gov.in"
+        },
+        "DEPT_WATER": {
+          "id": "OFF_WATER_03",
+          "name": "Devendra Patel",
+          "title": "Junior Engineer (Water) W-03",
+          "phone": "+91 98101 22023",
+          "email": "devendra.water@nagarseva.gov.in"
+        },
+        "DEPT_ELEC": {
+          "id": "OFF_ELEC_03",
+          "name": "Satish Chand",
+          "title": "Lineman In-charge W-03",
+          "phone": "+91 98101 22024",
+          "email": "satish.elec@nagarseva.gov.in"
+        },
+        "DEPT_HEALTH": {
+          "id": "OFF_HEALTH_03",
+          "name": "Dr. Smita Roy",
+          "title": "Zonal Epidemiologist W-03",
+          "phone": "+91 98101 22025",
+          "email": "smita.health@nagarseva.gov.in"
+        },
+        "DEPT_DRAIN": {
+          "id": "OFF_DRAIN_03",
+          "name": "Amit Tripathi",
+          "title": "Drainage Supervisor W-03",
+          "phone": "+91 98101 22026",
+          "email": "amit.drain@nagarseva.gov.in"
+        },
+        "DEPT_PARKS": {
+          "id": "OFF_PARKS_03",
+          "name": "Rekha Chauhan",
+          "title": "Horticulture Officer W-03",
+          "phone": "+91 98101 22027",
+          "email": "rekha.parks@nagarseva.gov.in"
+        },
+        "DEPT_REV": {
+          "id": "OFF_REV_03",
+          "name": "Vikas Dubey",
+          "title": "Enforcement Inspector W-03",
+          "phone": "+91 98101 22028",
+          "email": "vikas.rev@nagarseva.gov.in"
+        }
+      }
+    },
+    {
+      "id": "WARD_04",
+      "code": "W04",
+      "name": "Ward 4 - Green Valley & South Enclave",
+      "zone": "South Zone",
+      "population": 120000,
+      "center": {
+        "lat": 28.535,
+        "lng": 77.24
+      },
+      "bounds": [
+        [
+          28.55,
+          77.22
+        ],
+        [
+          28.55,
+          77.26
+        ],
+        [
+          28.52,
+          77.26
+        ],
+        [
+          28.52,
+          77.22
+        ]
+      ],
+      "zonalCommissioner": "Dr. Nandita Sen (IAS)",
+      "councilor": "Smt. Rohini Sharma",
+      "officers": {
+        "DEPT_SAN": {
+          "id": "OFF_SAN_04",
+          "name": "Kamal Hassan",
+          "title": "Sanitary Inspector W-04",
+          "phone": "+91 98101 22031",
+          "email": "kamal.san@nagarseva.gov.in"
+        },
+        "DEPT_ROADS": {
+          "id": "OFF_ROADS_04",
+          "name": "Nitin Gadve",
+          "title": "Asst. Engineer (Roads) W-04",
+          "phone": "+91 98101 22032",
+          "email": "nitin.roads@nagarseva.gov.in"
+        },
+        "DEPT_WATER": {
+          "id": "OFF_WATER_04",
+          "name": "Lata Mangesh",
+          "title": "Junior Engineer (Water) W-04",
+          "phone": "+91 98101 22033",
+          "email": "lata.water@nagarseva.gov.in"
+        },
+        "DEPT_ELEC": {
+          "id": "OFF_ELEC_04",
+          "name": "Pankaj Bora",
+          "title": "Lineman In-charge W-04",
+          "phone": "+91 98101 22034",
+          "email": "pankaj.elec@nagarseva.gov.in"
+        },
+        "DEPT_HEALTH": {
+          "id": "OFF_HEALTH_04",
+          "name": "Dr. K. Srinivas",
+          "title": "Zonal Epidemiologist W-04",
+          "phone": "+91 98101 22035",
+          "email": "srinivas.health@nagarseva.gov.in"
+        },
+        "DEPT_DRAIN": {
+          "id": "OFF_DRAIN_04",
+          "name": "Harishankar",
+          "title": "Drainage Supervisor W-04",
+          "phone": "+91 98101 22036",
+          "email": "hari.drain@nagarseva.gov.in"
+        },
+        "DEPT_PARKS": {
+          "id": "OFF_PARKS_04",
+          "name": "Meena Swaminathan",
+          "title": "Horticulture Officer W-04",
+          "phone": "+91 98101 22037",
+          "email": "meena.parks@nagarseva.gov.in"
+        },
+        "DEPT_REV": {
+          "id": "OFF_REV_04",
+          "name": "Brij Mohan",
+          "title": "Enforcement Inspector W-04",
+          "phone": "+91 98101 22038",
+          "email": "brij.rev@nagarseva.gov.in"
+        }
+      }
+    },
+    {
+      "id": "WARD_05",
+      "code": "W05",
+      "name": "Ward 5 - West Industrial Estate & Logistics Hub",
+      "zone": "West Zone",
+      "population": 165000,
+      "center": {
+        "lat": 28.65,
+        "lng": 77.12
+      },
+      "bounds": [
+        [
+          28.67,
+          77.1
+        ],
+        [
+          28.67,
+          77.14
+        ],
+        [
+          28.63,
+          77.14
+        ],
+        [
+          28.63,
+          77.1
+        ]
+      ],
+      "zonalCommissioner": "Shri Harish Rawal (IAS)",
+      "councilor": "Sardar Baljit Singh",
+      "officers": {
+        "DEPT_SAN": {
+          "id": "OFF_SAN_05",
+          "name": "Jaspal Bhatti",
+          "title": "Sanitary Inspector W-05",
+          "phone": "+91 98101 22041",
+          "email": "jaspal.san@nagarseva.gov.in"
+        },
+        "DEPT_ROADS": {
+          "id": "OFF_ROADS_05",
+          "name": "Hemant Bisht",
+          "title": "Asst. Engineer (Roads) W-05",
+          "phone": "+91 98101 22042",
+          "email": "hemant.roads@nagarseva.gov.in"
+        },
+        "DEPT_WATER": {
+          "id": "OFF_WATER_05",
+          "name": "Raghavendra Rao",
+          "title": "Junior Engineer (Water) W-05",
+          "phone": "+91 98101 22043",
+          "email": "raghav.water@nagarseva.gov.in"
+        },
+        "DEPT_ELEC": {
+          "id": "OFF_ELEC_05",
+          "name": "Subhash Yadav",
+          "title": "Lineman In-charge W-05",
+          "phone": "+91 98101 22044",
+          "email": "subhash.elec@nagarseva.gov.in"
+        },
+        "DEPT_HEALTH": {
+          "id": "OFF_HEALTH_05",
+          "name": "Dr. Geeta Pillai",
+          "title": "Zonal Epidemiologist W-05",
+          "phone": "+91 98101 22045",
+          "email": "geeta.health@nagarseva.gov.in"
+        },
+        "DEPT_DRAIN": {
+          "id": "OFF_DRAIN_05",
+          "name": "Om Prakash",
+          "title": "Drainage Supervisor W-05",
+          "phone": "+91 98101 22046",
+          "email": "omprakash.drain@nagarseva.gov.in"
+        },
+        "DEPT_PARKS": {
+          "id": "OFF_PARKS_05",
+          "name": "Shanta Devi",
+          "title": "Horticulture Officer W-05",
+          "phone": "+91 98101 22047",
+          "email": "shanta.parks@nagarseva.gov.in"
+        },
+        "DEPT_REV": {
+          "id": "OFF_REV_05",
+          "name": "Suraj Prakash",
+          "title": "Enforcement Inspector W-05",
+          "phone": "+91 98101 22048",
+          "email": "suraj.rev@nagarseva.gov.in"
+        }
+      }
+    }
+  ],
+  "slaRules": {
+    "ESCALATION_LEVELS": {
+      "LEVEL_0": {
+        "level": 0,
+        "title": "Ward Field Officer",
+        "role": "Assignee / Inspector",
+        "action": "Initial Investigation & Ground Action",
+        "alertColor": "blue"
+      },
+      "LEVEL_1": {
+        "level": 1,
+        "title": "Assistant / Executive Engineer & Ward Supervisor",
+        "role": "Department Supervisor",
+        "trigger": "100% SLA Elapsed without resolution",
+        "action": "Supervisory Intervention & Resource Reallocation",
+        "alertColor": "amber"
+      },
+      "LEVEL_2": {
+        "level": 2,
+        "title": "Superintending Engineer & Zonal Commissioner",
+        "role": "Zonal Head",
+        "trigger": "150% SLA Elapsed (Breach > 12h)",
+        "action": "Direct Oversight & Administrative Notice to Officer",
+        "alertColor": "orange"
+      },
+      "LEVEL_3": {
+        "level": 3,
+        "title": "Municipal Commissioner & District Magistrate",
+        "role": "Chief Executive Authority",
+        "trigger": "200% SLA Elapsed or Unresolved Critical Emergency",
+        "action": "High-level Executive Inquest & Disciplinary Audit Flag",
+        "alertColor": "red"
+      }
+    },
+    "THRESHOLDS": {
+      "WARNING_PERCENT": 75,
+      "BREACH_PERCENT": 100
+    },
+    "DEFAULT_HOURS_MATRIX": {
+      "CRITICAL": 12,
+      "HIGH": 24,
+      "MEDIUM": 48,
+      "LOW": 96
+    }
+  },
+  "clockOffsetHours": 0,
+  "lastUpdated": "2026-11-12T07:40:42.050Z"
+}

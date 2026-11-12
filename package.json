@@ -1,0 +1,23 @@
+{
+  "name": "citizen-grievance-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-Stack Citizen Grievance Redressal and Complaint Tracking System with Automated Routing and SLA Monitoring",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "test": "node server/test-smoke.js",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "grievance-redressal",
+    "sla-monitoring",
+    "automated-routing",
+    "citizen-portal",
+    "smart-city",
+    "e-governance"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}
