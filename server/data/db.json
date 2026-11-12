@@ -1,6 +1,68 @@
 {
   "grievances": [
     {
+      "id": "grv-e9c92392",
+      "trackingToken": "GRV-2026-3384",
+      "title": "Dangerous live electrical wire sparking across footpath near nursery",
+      "description": "Exposed 440V distribution wire fell after storm. Sparking actively on wet ground. Huge electrocution risk.",
+      "category": "live_wire",
+      "categoryName": "Live Exposed Electrical Cable / Sparking",
+      "departmentId": "DEPT_ELEC",
+      "departmentName": "Electricity, Streetlights & Energy",
+      "wardId": "WARD_01",
+      "wardName": "Ward 1 - North Ridge & Civil Lines",
+      "address": "Sector 3 Nursery Lane, Civil Lines",
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.209
+      },
+      "citizen": {
+        "name": "Priya Sharma",
+        "phone": "+91 98111 22233",
+        "email": "priya.s@gmail.com"
+      },
+      "priority": "CRITICAL",
+      "urgencyScore": 100,
+      "routingReason": "Automated Classification: Routed to 'Electricity, Streetlights & Energy' (Dept Code: ELEC). Trigger keywords detected: [wire, sparking]. Calculated Urgency Score: 100/100. Priority assigned: CRITICAL. Safety alert triggers: [danger, dangerous, sparking]. Jurisdiction: Assigned to Ward 1 - North Ridge & Civil Lines Field Officer Manoj Tiwari (Lineman In-charge W-01). SLA Guarantee: 2 Hours resolution window (Target: 12 Nov, 03:39 pm).",
+      "status": "ASSIGNED",
+      "assignedOfficer": {
+        "id": "OFF_ELEC_01",
+        "name": "Manoj Tiwari",
+        "title": "Lineman In-charge W-01",
+        "phone": "+91 98101 22004",
+        "email": "manoj.elec@nagarseva.gov.in"
+      },
+      "escalationLevel": 0,
+      "slaHours": 2,
+      "slaDeadline": "2026-11-12T10:09:48.976Z",
+      "createdAt": "2026-11-12T08:09:48.974Z",
+      "upvotes": 1,
+      "attachments": [
+        {
+          "id": "att-1794470988998",
+          "type": "citizen_proof",
+          "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&auto=format&fit=crop&q=80",
+          "caption": "Uploaded evidence of civic issue"
+        }
+      ],
+      "timeline": [
+        {
+          "step": 1,
+          "title": "Grievance Lodged",
+          "description": "Complaint submitted via Web Portal by Priya Sharma.",
+          "timestamp": "2026-11-12T08:09:48.974Z",
+          "actor": "Priya Sharma"
+        },
+        {
+          "step": 2,
+          "title": "Intelligent Auto-Routing Executed",
+          "description": "Automated Classification: Routed to 'Electricity, Streetlights & Energy' (Dept Code: ELEC). Trigger keywords detected: [wire, sparking]. Calculated Urgency Score: 100/100. Priority assigned: CRITICAL. Safety alert triggers: [danger, dangerous, sparking]. Jurisdiction: Assigned to Ward 1 - North Ridge & Civil Lines Field Officer Manoj Tiwari (Lineman In-charge W-01). SLA Guarantee: 2 Hours resolution window (Target: 12 Nov, 03:39 pm).",
+          "timestamp": "2026-11-12T08:10:03.974Z",
+          "actor": "Automated Routing Engine"
+        }
+      ]
+    },
+    {
       "id": "grv-10a2efd1",
       "trackingToken": "GRV-2026-5939",
       "title": "Dangerous live electrical wire sparking across footpath near nursery",
@@ -913,6 +975,15 @@
   ],
   "auditLogs": [
     {
+      "id": "log-1794470989000-55",
+      "timestamp": "2026-11-12T08:09:49.000Z",
+      "grievanceId": "grv-e9c92392",
+      "trackingToken": "GRV-2026-3384",
+      "action": "GRIEVANCE_REGISTERED",
+      "actor": "Priya Sharma",
+      "details": "New CRITICAL ticket routed to Electricity, Streetlights & Energy (Manoj Tiwari). SLA: 2h."
+    },
+    {
       "id": "log-1794470561667-699",
       "timestamp": "2026-11-12T08:02:41.667Z",
       "grievanceId": "grv-10a2efd1",
@@ -995,6 +1066,54 @@
     }
   ],
   "notifications": [
+    {
+      "id": "notif-1794470989003-207",
+      "timestamp": "2026-11-12T08:09:49.003Z",
+      "isRead": false,
+      "recipientType": "OFFICER",
+      "recipientId": "OFF_ELEC_01",
+      "grievanceId": "grv-e9c92392",
+      "trackingToken": "GRV-2026-3384",
+      "title": "New Work Assignment: GRV-2026-3384 [CRITICAL]",
+      "message": "A new CRITICAL priority grievance has been routed to you in Ward 1 - North Ridge & Civil Lines: \"Dangerous live electrical wire sparking across footpath near nursery\". SLA deadline: 12/11/2026, 3:39:48 pm.",
+      "type": "ASSIGNMENT",
+      "dispatches": {
+        "sms": {
+          "phone": "+91 98101 22004",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T08:09:49.003Z"
+        },
+        "email": {
+          "email": "manoj.elec@nagarseva.gov.in",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T08:09:49.003Z"
+        }
+      }
+    },
+    {
+      "id": "notif-1794470989001-848",
+      "timestamp": "2026-11-12T08:09:49.001Z",
+      "isRead": false,
+      "recipientType": "CITIZEN",
+      "recipientId": "priya.s@gmail.com",
+      "grievanceId": "grv-e9c92392",
+      "trackingToken": "GRV-2026-3384",
+      "title": "Grievance Registered: GRV-2026-3384",
+      "message": "Your grievance regarding \"Dangerous live electrical wire sparking across footpath near nursery\" has been registered. Track status online anytime with token GRV-2026-3384. Target resolution SLA: 2 hours.",
+      "type": "TICKET_REGISTERED",
+      "dispatches": {
+        "sms": {
+          "phone": "+91 98111 22233",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T08:09:49.001Z"
+        },
+        "email": {
+          "email": "priya.s@gmail.com",
+          "status": "DELIVERED",
+          "deliveredAt": "2026-11-12T08:09:49.001Z"
+        }
+      }
+    },
     {
       "id": "notif-1794470561671-325",
       "timestamp": "2026-11-12T08:02:41.671Z",
@@ -2216,5 +2335,5 @@
     }
   },
   "clockOffsetHours": 0,
-  "lastUpdated": "2026-11-12T08:02:41.671Z"
+  "lastUpdated": "2026-11-12T08:09:49.003Z"
 }

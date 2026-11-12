@@ -31,12 +31,18 @@ if (fs.existsSync(clientDist)) {
   app.use(express.static(clientDist));
 }
 
-// API Routes
+// API Routes (Mounted at both /api and root to support Netlify serverless routing)
 app.use('/api/grievances', grievancesRouter);
 app.use('/api', departmentsRouter);
 app.use('/api/analytics', analyticsRouter);
 app.use('/api/notifications', notificationsRouter);
 app.use('/api/admin', adminRouter);
+
+app.use('/grievances', grievancesRouter);
+app.use('/', departmentsRouter);
+app.use('/analytics', analyticsRouter);
+app.use('/notifications', notificationsRouter);
+app.use('/admin', adminRouter);
 
 // Root health check
 app.get('/api/health', (req, res) => {
@@ -58,15 +64,18 @@ if (fs.existsSync(clientDist)) {
   });
 }
 
-// Periodic Background SLA Monitor Worker (Every 30 seconds)
+// Periodic Background SLA Monitor Worker (Every 30 seconds, if not in serverless mode)
 const SLA_AUDIT_INTERVAL_MS = 30000;
-const slaWorkerInterval = setInterval(() => {
-  try {
-    SlaMonitor.runAuditCheck();
-  } catch (err) {
-    console.error('[SLA Worker Error]:', err.message);
-  }
-}, SLA_AUDIT_INTERVAL_MS);
+let slaWorkerInterval = null;
+if (!process.env.NETLIFY && !process.env.SERVERLESS) {
+  slaWorkerInterval = setInterval(() => {
+    try {
+      SlaMonitor.runAuditCheck();
+    } catch (err) {
+      console.error('[SLA Worker Error]:', err.message);
+    }
+  }, SLA_AUDIT_INTERVAL_MS);
+}
 
 // Initial immediate SLA audit check
 try {
@@ -75,18 +84,32 @@ try {
   console.warn('Initial SLA check warning:', e.message);
 }
 
-// Start Server
-const server = app.listen(PORT, () => {
-  console.log(`================================================================`);
-  console.log(`🏛️  CITIZEN GRIEVANCE REDRESSAL & SLA TRACKING ENGINE ONLINE`);
-  console.log(`📍 API Server listening on: http://localhost:${PORT}`);
-  console.log(`⏱️  Automated SLA Worker active (Tick every 30s)`);
-  console.log(`================================================================`);
-});
+// Start Server when run as a standalone process
+let server = null;
+if (!process.env.NETLIFY && !process.env.SERVERLESS && process.env.NODE_ENV !== 'test') {
+  try {
+    server = app.listen(PORT, () => {
+      console.log(`================================================================`);
+      console.log(`🏛️  CITIZEN GRIEVANCE REDRESSAL & SLA TRACKING ENGINE ONLINE`);
+      console.log(`📍 API Server listening on: http://localhost:${PORT}`);
+      console.log(`⏱️  Automated SLA Worker active (Tick every 30s)`);
+      console.log(`================================================================`);
+    });
+    server.on('error', (err) => {
+      if (err.code === 'EADDRINUSE') {
+        console.log(`ℹ️  Server already running on port ${PORT}.`);
+      } else {
+        console.error('Server error:', err);
+      }
+    });
+  } catch (err) {
+    console.warn('Could not bind port:', err.message);
+  }
+}
 
 process.on('SIGTERM', () => {
-  clearInterval(slaWorkerInterval);
-  server.close();
+  if (slaWorkerInterval) clearInterval(slaWorkerInterval);
+  if (server) server.close();
 });
 
 export default app;

@@ -8,12 +8,18 @@ import { SLA_RULES } from '../config/slaRules.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const DATA_DIR = path.join(__dirname, '..', '..', 'data');
+
+const isServerless = process.env.NETLIFY === 'true' || process.env.SERVERLESS === 'true';
+const DATA_DIR = isServerless ? '/tmp/data' : path.join(__dirname, '..', '..', 'data');
 const DB_FILE = path.join(DATA_DIR, 'db.json');
 
 // Ensure data directory exists
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+} catch (e) {
+  console.warn('Could not create data dir:', e.message);
 }
 
 class Database {
