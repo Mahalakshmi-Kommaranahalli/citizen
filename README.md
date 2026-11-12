@@ -119,6 +119,38 @@ citizen/
 
 ---
 
+## 🌐 One-Click Cloud Deployment Guide
+
+This project is configured for instantaneous deployment across major cloud container and hosting platforms.
+
+### Option A: Deploy on Render.com (Recommended - Free Tier)
+1. Sign in to **[Render.com](https://render.com)** and connect your GitHub account.
+2. Click **New +** → **Web Service** → Select repository: **`Mahalakshmi-Kommaranahalli/citizen`**.
+3. Render will auto-detect settings from `render.yaml`:
+   - **Environment**: Node
+   - **Build Command**: `npm install && npm run build`
+   - **Start Command**: `npm start`
+   - **Health Check Path**: `/api/health`
+4. Click **Deploy Web Service**. Render will provision your public HTTPS URL (e.g. `https://nagarseva-grievance-portal.onrender.com`).
+
+---
+
+### Option B: Deploy on Railway.app
+1. Go to **[Railway.app](https://railway.app)** and click **New Project** → **Deploy from GitHub repo**.
+2. Select **`Mahalakshmi-Kommaranahalli/citizen`**.
+3. Railway detects the `Dockerfile` and `railway.json` automatically, builds the container, and deploys it live.
+
+---
+
+### Option C: Run with Docker (Local or VPS)
+Build and run the full containerized app with a single command:
+```bash
+docker compose up --build -d
+```
+Visit: 👉 **`http://localhost:5000`**
+
+---
+
 ## 🚦 Getting Started
 
 ### 1. Prerequisites
