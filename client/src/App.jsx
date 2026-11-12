@@ -6,6 +6,7 @@ import AdminDashboard from './pages/AdminDashboard';
 import TrackGrievanceModal from './pages/TrackGrievanceModal';
 import NotificationDrawer from './components/NotificationDrawer';
 import TimeTravelModal from './components/TimeTravelModal';
+import CivicBot from './components/CivicBot';
 import { api } from './services/api';
 
 export default function App() {
@@ -199,6 +200,12 @@ export default function App() {
           setSimulatedTime(clock.simulatedTime);
           loadData();
         }}
+      />
+
+      {/* Floating AI Civic Concierge Bot */}
+      <CivicBot
+        onOpenGrievance={setSelectedGrievance}
+        onRefresh={loadData}
       />
 
       {/* Civic Footer */}

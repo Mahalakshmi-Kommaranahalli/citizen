@@ -36,3 +36,4 @@ EXPOSE 5000
 
 # Start the unified server
 CMD ["node", "server/src/server.js"]
+
